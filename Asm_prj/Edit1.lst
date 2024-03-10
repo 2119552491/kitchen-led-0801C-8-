@@ -1,0 +1,1029 @@
+FM8P5X Compiler ICE Ver 2.04 Build011 Released D:\project\GC1\buyao--------------\0801C-huxi-100-V1.2\Asm_prj\superled.asm  2024/3/4  14:49:43
+
+LOC             LINE   SOURCE  TEXT  
+;=============================== superled.asm Start ================================================================
+0000            0001   N000:                NOP
+0001            0002   N001:                NOP
+0002            0003   N002:                NOP
+0003            0004   N003:                NOP
+0004            0005   N004:                NOP
+0005            0006   N005:                NOP
+0006            0007   N006:                NOP
+0007            0008   N007:                GOTO    0x00F
+0008            0009   N008:                MOVAR   0x010
+0009            0010   N009:                MOVR    0x003,0 
+000A            0011   N00A:                MOVAR   0x011
+000B            0012   N00B:                MOVR    0x004,0 
+000C            0013   N00C:                MOVAR   0x012
+000D            0014   N00D:                GOTO    0x242
+000E            0015   N00E:                GOTO    0x04B
+000F            0016   N00F:                NOP     
+0010            0017   N010:                CLRR    0x004
+0011            0018   N011:                CLRR    0x00E
+0012            0019   N012:                CLRR    0x00F
+0013            0020   N013:                CLRR    0x005
+0014            0021   N014:                MOVIA   0x000
+0015            0022   N015:                IOST    0x005
+0016            0023   N016:                MOVIA   0x039
+0017            0024   N017:                MOVAR   0x006
+0018            0025   N018:                MOVIA   0x039
+0019            0026   N019:                IOST    0x006
+001A            0027   N01A:                MOVIA   0x0E7
+001B            0028   N01B:                MOVAR   0x00D
+001C            0029   N01C:                MOVIA   0x039
+001D            0030   N01D:                MOVAR   0x009
+001E            0031   N01E:                MOVIA   0x030
+001F            0032   N01F:                MOVAR   0x010
+0020            0033   N020:                MOVIA   0x011
+0021            0034   N021:                MOVAR   0x004
+0022            0035   N022:                CLRR    0x000
+0023            0036   N023:                INCR    0x004,1 
+0024            0037   N024:                DECRSZ  0x010,1 
+0025            0038   N025:                GOTO    0x022
+0026            0039   N026:                CLRR    0x010
+0027            0040   N027:                CLRR    0x004
+0028            0041   N028:                MOVIA   0x000
+0029            0042   N029:                OPTION  
+002A            0043   N02A:                MOVIA   0x09E
+002B            0044   N02B:                MOVAR   0x001
+002C            0045   N02C:                BSR     0x015,0 
+002D            0046   N02D:                BSR     0x015,0 
+002E            0047   N02E:                MOVIA   0x001
+002F            0048   N02F:                MOVAR   0x01D
+0030            0049   N030:                MOVIA   0x012
+0031            0050   N031:                MOVAR   0x01C
+0032            0051   N032:                MOVIA   0x014
+0033            0052   N033:                MOVAR   0x01F
+0034            0053   N034:                MOVIA   0x080
+0035            0054   N035:                MOVAR   0x01E
+0036            0055   N036:                BSR     0x004,6 
+0037            0056   N037:                MOVIA   0x080
+0038            0057   N038:                MOVAR   0x00F
+0039            0058   N039:                CLRR    0x010
+003A            0059   N03A:                CLRR    0x008
+003B            0060   N03B:                CLRR    0x009
+003C            0061   N03C:                CLRR    0x00B
+003D            0062   N03D:                CLRR    0x00C
+003E            0063   N03E:                CLRR    0x00D
+003F            0064   N03F:                CLRR    0x00A
+0040            0065   N040:                BCR     0x004,6 
+0041            0066   N041:                MOVIA   0x081
+0042            0067   N042:                MOVAR   0x00E
+0043            0068   N043:                MOVIA   0x039
+0044            0069   N044:                MOVAR   0x008
+0045            0070   N045:                MOVIA   0x008
+0046            0071   N046:                MOVAR   0x005
+0047            0072   N047:                CLRR    0x006
+0048            0073   N048:                CALL    0x067
+0049            0074   N049:                GOTO    0x048
+004A            0075   N04A:                GOTO    0x04A
+004B            0076   N04B:                CLRR    0x004
+004C            0077   N04C:                BTRSS   0x00F,0 
+004D            0078   N04D:                GOTO    0x065
+004E            0079   N04E:                BCR     0x00F,0 
+004F            0080   N04F:                MOVIA   0x0A6
+0050            0081   N050:                MOVAR   0x001
+0051            0082   N051:                BTRSC   0x006,1 
+0052            0083   N052:                GOTO    0x055
+0053            0084   N053:                BSR     0x006,1 
+0054            0085   N054:                GOTO    0x056
+0055            0086   N055:                BCR     0x006,1 
+0056            0087   N056:                BSR     0x004,6 
+0057            0088   N057:                MOVR    0x01D,0 
+0058            0089   N058:                XORIA   0x001
+0059            0090   N059:                BTRSS   0x003,2 
+005A            0091   N05A:                GOTO    0x060
+005B            0092   N05B:                MOVIA   0x084
+005C            0093   N05C:                MOVAR   0x00A
+005D            0094   N05D:                MOVR    0x024,0 
+005E            0095   N05E:                MOVAR   0x00D
+005F            0096   N05F:                GOTO    0x063
+0060            0097   N060:                CLRR    0x00A
+0061            0098   N061:                CLRR    0x00D
+0062            0099   N062:                BCR     0x006,2 
+0063            0100   N063:                BCR     0x004,6 
+0064            0101   N064:                INCR    0x016,1 
+0065            0102   N065:                CLRR    0x00F
+0066            0103   N066:                GOTO    0x243
+0067            0104   N067:                MOVIA   0x014
+0068            0105   N068:                SUBAR   0x016,0 
+0069            0106   N069:                BTRSS   0x003,0 
+006A            0107   N06A:                GOTO    0x0FE
+006B            0108   N06B:                MOVIA   0x014
+006C            0109   N06C:                SUBAR   0x016,1 
+006D            0110   N06D:                INCR    0x017,1 
+006E            0111   N06E:                INCR    0x019,1 
+006F            0112   N06F:                MOVR    0x01D,0 
+0070            0113   N070:                BTRSC   0x003,2 
+0071            0114   N071:                GOTO    0x094
+0072            0115   N072:                MOVR    0x024,0 
+0073            0116   N073:                SUBAR   0x021,0 
+0074            0117   N074:                BTRSC   0x003,0 
+0075            0118   N075:                GOTO    0x078
+0076            0119   N076:                DECR    0x024,1 
+0077            0120   N077:                GOTO    0x07D
+0078            0121   N078:                MOVR    0x021,0 
+0079            0122   N079:                SUBAR   0x024,0 
+007A            0123   N07A:                BTRSC   0x003,0 
+007B            0124   N07B:                GOTO    0x07D
+007C            0125   N07C:                INCR    0x024,1 
+007D            0126   N07D:                MOVR    0x025,0 
+007E            0127   N07E:                SUBAR   0x022,0 
+007F            0128   N07F:                BTRSC   0x003,0 
+0080            0129   N080:                GOTO    0x083
+0081            0130   N081:                DECR    0x025,1 
+0082            0131   N082:                GOTO    0x088
+0083            0132   N083:                MOVR    0x022,0 
+0084            0133   N084:                SUBAR   0x025,0 
+0085            0134   N085:                BTRSC   0x003,0 
+0086            0135   N086:                GOTO    0x088
+0087            0136   N087:                INCR    0x025,1 
+0088            0137   N088:                MOVR    0x026,0 
+0089            0138   N089:                SUBAR   0x023,0 
+008A            0139   N08A:                BTRSC   0x003,0 
+008B            0140   N08B:                GOTO    0x08E
+008C            0141   N08C:                DECR    0x026,1 
+008D            0142   N08D:                GOTO    0x093
+008E            0143   N08E:                MOVR    0x023,0 
+008F            0144   N08F:                SUBAR   0x026,0 
+0090            0145   N090:                BTRSC   0x003,0 
+0091            0146   N091:                GOTO    0x093
+0092            0147   N092:                INCR    0x026,1 
+0093            0148   N093:                GOTO    0x0A0
+0094            0149   N094:                MOVR    0x024,0 
+0095            0150   N095:                BTRSC   0x003,2 
+0096            0151   N096:                GOTO    0x098
+0097            0152   N097:                DECR    0x024,1 
+0098            0153   N098:                MOVR    0x025,0 
+0099            0154   N099:                BTRSC   0x003,2 
+009A            0155   N09A:                GOTO    0x09C
+009B            0156   N09B:                DECR    0x025,1 
+009C            0157   N09C:                MOVR    0x026,0 
+009D            0158   N09D:                BTRSC   0x003,2 
+009E            0159   N09E:                GOTO    0x0A0
+009F            0160   N09F:                DECR    0x026,1 
+00A0            0161   N0A0:                MOVR    0x01D,0 
+00A1            0162   N0A1:                BTRSC   0x003,2 
+00A2            0163   N0A2:                GOTO    0x0AD
+00A3            0164   N0A3:                MOVR    0x029,0 
+00A4            0165   N0A4:                XORIA   0x002
+00A5            0166   N0A5:                BTRSS   0x003,2 
+00A6            0167   N0A6:                GOTO    0x0A8
+00A7            0168   N0A7:                CALL    0x1A9
+00A8            0169   N0A8:                MOVR    0x029,0 
+00A9            0170   N0A9:                XORIA   0x001
+00AA            0171   N0AA:                BTRSS   0x003,2 
+00AB            0172   N0AB:                GOTO    0x0AD
+00AC            0173   N0AC:                CALL    0x202
+00AD            0174   N0AD:                BSR     0x00E,7 
+00AE            0175   N0AE:                MOVIA   0x00A
+00AF            0176   N0AF:                SUBAR   0x017,0 
+00B0            0177   N0B0:                BTRSS   0x003,0 
+00B1            0178   N0B1:                GOTO    0x0FE
+00B2            0179   N0B2:                CLRR    0x017
+00B3            0180   N0B3:                INCR    0x018,1 
+00B4            0181   N0B4:                BTRSS   0x006,0 
+00B5            0182   N0B5:                GOTO    0x0B9
+00B6            0183   N0B6:                MOVIA   0x001
+00B7            0184   N0B7:                MOVAR   0x01D
+00B8            0185   N0B8:                GOTO    0x0BA
+00B9            0186   N0B9:                CLRR    0x01D
+00BA            0187   N0BA:                BTRSS   0x006,5 
+00BB            0188   N0BB:                GOTO    0x0BE
+00BC            0189   N0BC:                MOVIA   0x001
+00BD            0190   N0BD:                MOVAR   0x01D
+00BE            0191   N0BE:                MOVR    0x01B,0 
+00BF            0192   N0BF:                BTRSS   0x003,2 
+00C0            0193   N0C0:                GOTO    0x0DC
+00C1            0194   N0C1:                BTRSC   0x006,5 
+00C2            0195   N0C2:                GOTO    0x0CB
+00C3            0196   N0C3:                MOVR    0x01C,0 
+00C4            0197   N0C4:                XORIA   0x001
+00C5            0198   N0C5:                BTRSC   0x003,2 
+00C6            0199   N0C6:                GOTO    0x0CA
+00C7            0200   N0C7:                MOVIA   0x001
+00C8            0201   N0C8:                MOVAR   0x01C
+00C9            0202   N0C9:                BSR     0x015,0 
+00CA            0203   N0CA:                GOTO    0x0DC
+00CB            0204   N0CB:                BTRSS   0x006,4 
+00CC            0205   N0CC:                GOTO    0x0D5
+00CD            0206   N0CD:                MOVR    0x01C,0 
+00CE            0207   N0CE:                XORIA   0x011
+00CF            0208   N0CF:                BTRSC   0x003,2 
+00D0            0209   N0D0:                GOTO    0x0D4
+00D1            0210   N0D1:                MOVIA   0x011
+00D2            0211   N0D2:                MOVAR   0x01C
+00D3            0212   N0D3:                BSR     0x015,0 
+00D4            0213   N0D4:                GOTO    0x0DC
+00D5            0214   N0D5:                MOVR    0x01C,0 
+00D6            0215   N0D6:                XORIA   0x001
+00D7            0216   N0D7:                BTRSC   0x003,2 
+00D8            0217   N0D8:                GOTO    0x0DC
+00D9            0218   N0D9:                MOVIA   0x001
+00DA            0219   N0DA:                MOVAR   0x01C
+00DB            0220   N0DB:                BSR     0x015,0 
+00DC            0221   N0DC:                BTRSS   0x003,5 
+00DD            0222   N0DD:                GOTO    0x0E3
+00DE            0223   N0DE:                MOVR    0x01B,0 
+00DF            0224   N0DF:                BTRSC   0x003,2 
+00E0            0225   N0E0:                GOTO    0x0E2
+00E1            0226   N0E1:                DECR    0x01B,1 
+00E2            0227   N0E2:                GOTO    0x0FB
+00E3            0228   N0E3:                INCR    0x01B,1 
+00E4            0229   N0E4:                MOVIA   0x0FA
+00E5            0230   N0E5:                SUBAR   0x01B,0 
+00E6            0231   N0E6:                BTRSS   0x003,0 
+00E7            0232   N0E7:                GOTO    0x0FB
+00E8            0233   N0E8:                MOVIA   0x0FA
+00E9            0234   N0E9:                MOVAR   0x01B
+00EA            0235   N0EA:                BTRSC   0x006,5 
+00EB            0236   N0EB:                GOTO    0x0F4
+00EC            0237   N0EC:                MOVR    0x01C,0 
+00ED            0238   N0ED:                XORIA   0x012
+00EE            0239   N0EE:                BTRSC   0x003,2 
+00EF            0240   N0EF:                GOTO    0x0F3
+00F0            0241   N0F0:                MOVIA   0x012
+00F1            0242   N0F1:                MOVAR   0x01C
+00F2            0243   N0F2:                BSR     0x015,0 
+00F3            0244   N0F3:                GOTO    0x0FB
+00F4            0245   N0F4:                MOVR    0x01C,0 
+00F5            0246   N0F5:                XORIA   0x011
+00F6            0247   N0F6:                BTRSC   0x003,2 
+00F7            0248   N0F7:                GOTO    0x0FB
+00F8            0249   N0F8:                MOVIA   0x011
+00F9            0250   N0F9:                MOVAR   0x01C
+00FA            0251   N0FA:                BSR     0x015,0 
+00FB            0252   N0FB:                CALL    0x0FF
+00FC            0253   N0FC:                CALL    0x17F
+00FD            0254   N0FD:                BSR     0x00E,7 
+00FE            0255   N0FE:                RETURN  
+00FF            0256   N0FF:                MOVR    0x01D,0 
+0100            0257   N100:                BTRSC   0x003,2 
+0101            0258   N101:                GOTO    0x135
+0102            0259   N102:                MOVIA   0x039
+0103            0260   N103:                MOVAR   0x008
+0104            0261   N104:                MOVIA   0x008
+0105            0262   N105:                MOVAR   0x005
+0106            0263   N106:                CLRR    0x006
+0107            0264   N107:                BTRSS   0x015,0 
+0108            0265   N108:                GOTO    0x134
+0109            0266   N109:                BCR     0x015,0 
+010A            0267   N10A:                COMR    0x01C,0 
+010B            0268   N10B:                ADDIA   0x011
+010C            0269   N10C:                BTRSS   0x003,0 
+010D            0270   N10D:                GOTO    0x112
+010E            0271   N10E:                MOVR    0x01C,0 
+010F            0272   N10F:                MOVAR   0x02A
+0110            0273   N110:                CLRR    0x029
+0111            0274   N111:                CALL    0x139
+0112            0275   N112:                COMR    0x01C,0 
+0113            0276   N113:                ADDIA   0x011
+0114            0277   N114:                BTRSC   0x003,0 
+0115            0278   N115:                GOTO    0x12E
+0116            0279   N116:                CLRR    0x02A
+0117            0280   N117:                MOVIA   0x010
+0118            0281   N118:                SUBAR   0x01C,0 
+0119            0282   N119:                MOVAR   0x029
+011A            0283   N11A:                MOVR    0x029,0 
+011B            0284   N11B:                XORIA   0x001
+011C            0285   N11C:                BTRSS   0x003,2 
+011D            0286   N11D:                GOTO    0x127
+011E            0287   N11E:                MOVIA   0x019
+011F            0288   N11F:                MOVAR   0x01F
+0120            0289   N120:                CALL    0x1CE
+0121            0290   N121:                CLRR    0x024
+0122            0291   N122:                CLRR    0x025
+0123            0292   N123:                CLRR    0x026
+0124            0293   N124:                CLRR    0x021
+0125            0294   N125:                CLRR    0x022
+0126            0295   N126:                CLRR    0x023
+0127            0296   N127:                MOVR    0x029,0 
+0128            0297   N128:                XORIA   0x002
+0129            0298   N129:                BTRSS   0x003,2 
+012A            0299   N12A:                GOTO    0x12E
+012B            0300   N12B:                MOVIA   0x001
+012C            0301   N12C:                MOVAR   0x01F
+012D            0302   N12D:                CALL    0x139
+012E            0303   N12E:                MOVIA   0x07F
+012F            0304   N12F:                MOVAR   0x01A
+0130            0305   N130:                MOVIA   0x07F
+0131            0306   N131:                MOVAR   0x019
+0132            0307   N132:                CLRR    0x020
+0133            0308   N133:                BSR     0x00E,7 
+0134            0309   N134:                GOTO    0x138
+0135            0310   N135:                CLRR    0x008
+0136            0311   N136:                CLRR    0x005
+0137            0312   N137:                CLRR    0x006
+0138            0313   N138:                RETURN  
+0139            0314   N139:                BCR     0x00E,7 
+013A            0315   N13A:                COMR    0x029,0 
+013B            0316   N13B:                ADDIA   0x003
+013C            0317   N13C:                BTRSS   0x003,0 
+013D            0318   N13D:                GOTO    0x141
+013E            0319   N13E:                MOVR    0x01E,0 
+013F            0320   N13F:                MOVAR   0x02E
+0140            0321   N140:                GOTO    0x143
+0141            0322   N141:                MOVIA   0x080
+0142            0323   N142:                MOVAR   0x02E
+0143            0324   N143:                RRR     0x02E,0 
+0144            0325   N144:                MOVAR   0x02D
+0145            0326   N145:                RRR     0x02D,1 
+0146            0327   N146:                MOVIA   0x03F
+0147            0328   N147:                ANDAR   0x02D,1 
+0148            0329   N148:                MOVR    0x02A,0 
+0149            0330   N149:                MOVAR   0x013
+014A            0331   N14A:                CLRR    0x014
+014B            0332   N14B:                MOVIA   0x0C7
+014C            0333   N14C:                ADDAR   0x013,0 
+014D            0334   N14D:                MOVIA   0x003
+014E            0335   N14E:                ADCAR   0x014,0 
+014F            0336   N14F:                MOVAR   0x00A
+0150            0337   N150:                MOVR    0x013,0 
+0151            0338   N151:                CALL    0x3C6
+0152            0339   N152:                MOVAR   0x02B
+0153            0340   N153:                CALL    0x174
+0154            0341   N154:                MOVR    0x027,0 
+0155            0342   N155:                MOVAR   0x021
+0156            0343   N156:                MOVR    0x02A,0 
+0157            0344   N157:                MOVAR   0x013
+0158            0345   N158:                CLRR    0x014
+0159            0346   N159:                MOVIA   0x0D9
+015A            0347   N15A:                ADDAR   0x013,0 
+015B            0348   N15B:                MOVIA   0x003
+015C            0349   N15C:                ADCAR   0x014,0 
+015D            0350   N15D:                MOVAR   0x00A
+015E            0351   N15E:                MOVR    0x013,0 
+015F            0352   N15F:                CALL    0x3D8
+0160            0353   N160:                MOVAR   0x02B
+0161            0354   N161:                CALL    0x174
+0162            0355   N162:                MOVR    0x027,0 
+0163            0356   N163:                MOVAR   0x022
+0164            0357   N164:                MOVR    0x02A,0 
+0165            0358   N165:                MOVAR   0x013
+0166            0359   N166:                CLRR    0x014
+0167            0360   N167:                MOVIA   0x0EB
+0168            0361   N168:                ADDAR   0x013,0 
+0169            0362   N169:                MOVIA   0x003
+016A            0363   N16A:                ADCAR   0x014,0 
+016B            0364   N16B:                MOVAR   0x00A
+016C            0365   N16C:                MOVR    0x013,0 
+016D            0366   N16D:                CALL    0x3EA
+016E            0367   N16E:                MOVAR   0x02B
+016F            0368   N16F:                CALL    0x174
+0170            0369   N170:                MOVR    0x027,0 
+0171            0370   N171:                MOVAR   0x023
+0172            0371   N172:                BSR     0x00E,7 
+0173            0372   N173:                RETURN  
+0174            0373   N174:                CLRR    0x027
+0175            0374   N175:                MOVR    0x02B,0 
+0176            0375   N176:                MOVAR   0x013
+0177            0376   N177:                DECR    0x02B,1 
+0178            0377   N178:                MOVR    0x013,0 
+0179            0378   N179:                BTRSC   0x003,2 
+017A            0379   N17A:                GOTO    0x17E
+017B            0380   N17B:                MOVR    0x02D,0 
+017C            0381   N17C:                ADDAR   0x027,1 
+017D            0382   N17D:                GOTO    0x175
+017E            0383   N17E:                RETURN  
+017F            0384   N17F:                INCR    0x02F,1 
+0180            0385   N180:                BTRSC   0x006,5 
+0181            0386   N181:                GOTO    0x197
+0182            0387   N182:                MOVR    0x01D,0 
+0183            0388   N183:                BTRSS   0x003,2 
+0184            0389   N184:                GOTO    0x197
+0185            0390   N185:                COMR    0x02F,0 
+0186            0391   N186:                ADDIA   0x01F
+0187            0392   N187:                BTRSC   0x003,0 
+0188            0393   N188:                GOTO    0x196
+0189            0394   N189:                CALL    0x199
+018A            0395   N18A:                MOVIA   0x002
+018B            0396   N18B:                MOVAR   0x00E
+018C            0397   N18C:                NOP     
+018D            0398   N18D:                NOP     
+018E            0399   N18E:                NOP     
+018F            0400   N18F:                SLEEP   
+0190            0401   N190:                NOP     
+0191            0402   N191:                NOP     
+0192            0403   N192:                NOP     
+0193            0404   N193:                CALL    0x1A4
+0194            0405   N194:                MOVIA   0x081
+0195            0406   N195:                MOVAR   0x00E
+0196            0407   N196:                GOTO    0x198
+0197            0408   N197:                CLRR    0x02F
+0198            0409   N198:                RETURN  
+0199            0410   N199:                BCR     0x00E,7 
+019A            0411   N19A:                CLRR    0x00F
+019B            0412   N19B:                CLRR    0x010
+019C            0413   N19C:                CLRR    0x00A
+019D            0414   N19D:                CLRR    0x00D
+019E            0415   N19E:                BCR     0x006,2 
+019F            0416   N19F:                CLRR    0x008
+01A0            0417   N1A0:                CLRR    0x005
+01A1            0418   N1A1:                CLRR    0x006
+01A2            0419   N1A2:                CLRR    0x02F
+01A3            0420   N1A3:                RETURN  
+01A4            0421   N1A4:                MOVIA   0x080
+01A5            0422   N1A5:                MOVAR   0x00F
+01A6            0423   N1A6:                CLRR    0x010
+01A7            0424   N1A7:                BSR     0x00E,7 
+01A8            0425   N1A8:                RETURN  
+01A9            0426   N1A9:                MOVR    0x01F,0 
+01AA            0427   N1AA:                SUBAR   0x019,0 
+01AB            0428   N1AB:                BTRSS   0x003,0 
+01AC            0429   N1AC:                GOTO    0x1CD
+01AD            0430   N1AD:                CLRR    0x019
+01AE            0431   N1AE:                INCR    0x01A,1 
+01AF            0432   N1AF:                MOVIA   0x064
+01B0            0433   N1B0:                SUBAR   0x01A,0 
+01B1            0434   N1B1:                BTRSS   0x003,0 
+01B2            0435   N1B2:                GOTO    0x1CD
+01B3            0436   N1B3:                CLRR    0x01A
+01B4            0437   N1B4:                INCR    0x020,1 
+01B5            0438   N1B5:                MOVIA   0x005
+01B6            0439   N1B6:                SUBAR   0x020,0 
+01B7            0440   N1B7:                BTRSS   0x003,0 
+01B8            0441   N1B8:                GOTO    0x1BB
+01B9            0442   N1B9:                MOVIA   0x001
+01BA            0443   N1BA:                MOVAR   0x020
+01BB            0444   N1BB:                MOVR    0x020,0 
+01BC            0445   N1BC:                MOVAR   0x013
+01BD            0446   N1BD:                CLRR    0x014
+01BE            0447   N1BE:                MOVIA   0x0BF
+01BF            0448   N1BF:                ADDAR   0x013,0 
+01C0            0449   N1C0:                MOVIA   0x003
+01C1            0450   N1C1:                ADCAR   0x014,0 
+01C2            0451   N1C2:                MOVAR   0x00A
+01C3            0452   N1C3:                MOVR    0x013,0 
+01C4            0453   N1C4:                CALL    0x3BE
+01C5            0454   N1C5:                MOVAR   0x02A
+01C6            0455   N1C6:                CALL    0x139
+01C7            0456   N1C7:                MOVR    0x021,0 
+01C8            0457   N1C8:                MOVAR   0x024
+01C9            0458   N1C9:                MOVR    0x022,0 
+01CA            0459   N1CA:                MOVAR   0x025
+01CB            0460   N1CB:                MOVR    0x023,0 
+01CC            0461   N1CC:                MOVAR   0x026
+01CD            0462   N1CD:                RETURN  
+01CE            0463   N1CE:                MOVIA   0x080
+01CF            0464   N1CF:                MOVAR   0x02E
+01D0            0465   N1D0:                RRR     0x02E,0 
+01D1            0466   N1D1:                MOVAR   0x02D
+01D2            0467   N1D2:                RRR     0x02D,1 
+01D3            0468   N1D3:                MOVIA   0x03F
+01D4            0469   N1D4:                ANDAR   0x02D,1 
+01D5            0470   N1D5:                BCR     0x00E,7 
+01D6            0471   N1D6:                MOVR    0x02A,0 
+01D7            0472   N1D7:                MOVAR   0x013
+01D8            0473   N1D8:                CLRR    0x014
+01D9            0474   N1D9:                MOVIA   0x0C7
+01DA            0475   N1DA:                ADDAR   0x013,0 
+01DB            0476   N1DB:                MOVIA   0x003
+01DC            0477   N1DC:                ADCAR   0x014,0 
+01DD            0478   N1DD:                MOVAR   0x00A
+01DE            0479   N1DE:                MOVR    0x013,0 
+01DF            0480   N1DF:                CALL    0x3C6
+01E0            0481   N1E0:                MOVAR   0x02B
+01E1            0482   N1E1:                CALL    0x174
+01E2            0483   N1E2:                MOVR    0x027,0 
+01E3            0484   N1E3:                MOVAR   0x031
+01E4            0485   N1E4:                MOVR    0x02A,0 
+01E5            0486   N1E5:                MOVAR   0x013
+01E6            0487   N1E6:                CLRR    0x014
+01E7            0488   N1E7:                MOVIA   0x0D9
+01E8            0489   N1E8:                ADDAR   0x013,0 
+01E9            0490   N1E9:                MOVIA   0x003
+01EA            0491   N1EA:                ADCAR   0x014,0 
+01EB            0492   N1EB:                MOVAR   0x00A
+01EC            0493   N1EC:                MOVR    0x013,0 
+01ED            0494   N1ED:                CALL    0x3D8
+01EE            0495   N1EE:                MOVAR   0x02B
+01EF            0496   N1EF:                CALL    0x174
+01F0            0497   N1F0:                MOVR    0x027,0 
+01F1            0498   N1F1:                MOVAR   0x032
+01F2            0499   N1F2:                MOVR    0x02A,0 
+01F3            0500   N1F3:                MOVAR   0x013
+01F4            0501   N1F4:                CLRR    0x014
+01F5            0502   N1F5:                MOVIA   0x0EB
+01F6            0503   N1F6:                ADDAR   0x013,0 
+01F7            0504   N1F7:                MOVIA   0x003
+01F8            0505   N1F8:                ADCAR   0x014,0 
+01F9            0506   N1F9:                MOVAR   0x00A
+01FA            0507   N1FA:                MOVR    0x013,0 
+01FB            0508   N1FB:                CALL    0x3EA
+01FC            0509   N1FC:                MOVAR   0x02B
+01FD            0510   N1FD:                CALL    0x174
+01FE            0511   N1FE:                MOVR    0x027,0 
+01FF            0512   N1FF:                MOVAR   0x033
+0200            0513   N200:                BSR     0x00E,7 
+0201            0514   N201:                RETURN  
+0202            0515   N202:                MOVR    0x01F,0 
+0203            0516   N203:                SUBAR   0x019,0 
+0204            0517   N204:                BTRSS   0x003,0 
+0205            0518   N205:                GOTO    0x241
+0206            0519   N206:                CLRR    0x019
+0207            0520   N207:                INCR    0x01A,1 
+0208            0521   N208:                MOVR    0x031,0 
+0209            0522   N209:                SUBAR   0x021,0 
+020A            0523   N20A:                BTRSC   0x003,0 
+020B            0524   N20B:                GOTO    0x20E
+020C            0525   N20C:                INCR    0x021,1 
+020D            0526   N20D:                GOTO    0x213
+020E            0527   N20E:                MOVR    0x021,0 
+020F            0528   N20F:                SUBAR   0x031,0 
+0210            0529   N210:                BTRSC   0x003,0 
+0211            0530   N211:                GOTO    0x213
+0212            0531   N212:                DECR    0x021,1 
+0213            0532   N213:                MOVR    0x032,0 
+0214            0533   N214:                SUBAR   0x022,0 
+0215            0534   N215:                BTRSC   0x003,0 
+0216            0535   N216:                GOTO    0x219
+0217            0536   N217:                INCR    0x022,1 
+0218            0537   N218:                GOTO    0x21E
+0219            0538   N219:                MOVR    0x022,0 
+021A            0539   N21A:                SUBAR   0x032,0 
+021B            0540   N21B:                BTRSC   0x003,0 
+021C            0541   N21C:                GOTO    0x21E
+021D            0542   N21D:                DECR    0x022,1 
+021E            0543   N21E:                MOVR    0x033,0 
+021F            0544   N21F:                SUBAR   0x023,0 
+0220            0545   N220:                BTRSC   0x003,0 
+0221            0546   N221:                GOTO    0x224
+0222            0547   N222:                INCR    0x023,1 
+0223            0548   N223:                GOTO    0x229
+0224            0549   N224:                MOVR    0x023,0 
+0225            0550   N225:                SUBAR   0x033,0 
+0226            0551   N226:                BTRSC   0x003,0 
+0227            0552   N227:                GOTO    0x229
+0228            0553   N228:                DECR    0x023,1 
+0229            0554   N229:                MOVIA   0x080
+022A            0555   N22A:                SUBAR   0x01A,0 
+022B            0556   N22B:                BTRSS   0x003,0 
+022C            0557   N22C:                GOTO    0x241
+022D            0558   N22D:                CLRR    0x01A
+022E            0559   N22E:                INCR    0x020,1 
+022F            0560   N22F:                MOVIA   0x003
+0230            0561   N230:                SUBAR   0x020,0 
+0231            0562   N231:                BTRSS   0x003,0 
+0232            0563   N232:                GOTO    0x235
+0233            0564   N233:                MOVIA   0x001
+0234            0565   N234:                MOVAR   0x020
+0235            0566   N235:                MOVR    0x020,0 
+0236            0567   N236:                MOVAR   0x013
+0237            0568   N237:                CLRR    0x014
+0238            0569   N238:                MOVIA   0x0BF
+0239            0570   N239:                ADDAR   0x013,0 
+023A            0571   N23A:                MOVIA   0x003
+023B            0572   N23B:                ADCAR   0x014,0 
+023C            0573   N23C:                MOVAR   0x00A
+023D            0574   N23D:                MOVR    0x013,0 
+023E            0575   N23E:                CALL    0x3BE
+023F            0576   N23F:                MOVAR   0x02A
+0240            0577   N240:                CALL    0x1CE
+0241            0578   N241:                RETURN  
+0242            0579   N242:                GOTO    0x00E
+0243            0580   N243:                MOVR    0x012,0 
+0244            0581   N244:                MOVAR   0x004
+0245            0582   N245:                MOVR    0x011,0 
+0246            0583   N246:                MOVAR   0x003
+0247            0584   N247:                SWAPR   0x010,1 
+0248            0585   N248:                SWAPR   0x010,0 
+0249            0586   N249:                RETFIE  
+024A            0587   N24A:                NOP
+024B            0588   N24B:                NOP
+024C            0589   N24C:                NOP
+024D            0590   N24D:                NOP
+024E            0591   N24E:                NOP
+024F            0592   N24F:                NOP
+0250            0593   N250:                NOP
+0251            0594   N251:                NOP
+0252            0595   N252:                NOP
+0253            0596   N253:                NOP
+0254            0597   N254:                NOP
+0255            0598   N255:                NOP
+0256            0599   N256:                NOP
+0257            0600   N257:                NOP
+0258            0601   N258:                NOP
+0259            0602   N259:                NOP
+025A            0603   N25A:                NOP
+025B            0604   N25B:                NOP
+025C            0605   N25C:                NOP
+025D            0606   N25D:                NOP
+025E            0607   N25E:                NOP
+025F            0608   N25F:                NOP
+0260            0609   N260:                NOP
+0261            0610   N261:                NOP
+0262            0611   N262:                NOP
+0263            0612   N263:                NOP
+0264            0613   N264:                NOP
+0265            0614   N265:                NOP
+0266            0615   N266:                NOP
+0267            0616   N267:                NOP
+0268            0617   N268:                NOP
+0269            0618   N269:                NOP
+026A            0619   N26A:                NOP
+026B            0620   N26B:                NOP
+026C            0621   N26C:                NOP
+026D            0622   N26D:                NOP
+026E            0623   N26E:                NOP
+026F            0624   N26F:                NOP
+0270            0625   N270:                NOP
+0271            0626   N271:                NOP
+0272            0627   N272:                NOP
+0273            0628   N273:                NOP
+0274            0629   N274:                NOP
+0275            0630   N275:                NOP
+0276            0631   N276:                NOP
+0277            0632   N277:                NOP
+0278            0633   N278:                NOP
+0279            0634   N279:                NOP
+027A            0635   N27A:                NOP
+027B            0636   N27B:                NOP
+027C            0637   N27C:                NOP
+027D            0638   N27D:                NOP
+027E            0639   N27E:                NOP
+027F            0640   N27F:                NOP
+0280            0641   N280:                NOP
+0281            0642   N281:                NOP
+0282            0643   N282:                NOP
+0283            0644   N283:                NOP
+0284            0645   N284:                NOP
+0285            0646   N285:                NOP
+0286            0647   N286:                NOP
+0287            0648   N287:                NOP
+0288            0649   N288:                NOP
+0289            0650   N289:                NOP
+028A            0651   N28A:                NOP
+028B            0652   N28B:                NOP
+028C            0653   N28C:                NOP
+028D            0654   N28D:                NOP
+028E            0655   N28E:                NOP
+028F            0656   N28F:                NOP
+0290            0657   N290:                NOP
+0291            0658   N291:                NOP
+0292            0659   N292:                NOP
+0293            0660   N293:                NOP
+0294            0661   N294:                NOP
+0295            0662   N295:                NOP
+0296            0663   N296:                NOP
+0297            0664   N297:                NOP
+0298            0665   N298:                NOP
+0299            0666   N299:                NOP
+029A            0667   N29A:                NOP
+029B            0668   N29B:                NOP
+029C            0669   N29C:                NOP
+029D            0670   N29D:                NOP
+029E            0671   N29E:                NOP
+029F            0672   N29F:                NOP
+02A0            0673   N2A0:                NOP
+02A1            0674   N2A1:                NOP
+02A2            0675   N2A2:                NOP
+02A3            0676   N2A3:                NOP
+02A4            0677   N2A4:                NOP
+02A5            0678   N2A5:                NOP
+02A6            0679   N2A6:                NOP
+02A7            0680   N2A7:                NOP
+02A8            0681   N2A8:                NOP
+02A9            0682   N2A9:                NOP
+02AA            0683   N2AA:                NOP
+02AB            0684   N2AB:                NOP
+02AC            0685   N2AC:                NOP
+02AD            0686   N2AD:                NOP
+02AE            0687   N2AE:                NOP
+02AF            0688   N2AF:                NOP
+02B0            0689   N2B0:                NOP
+02B1            0690   N2B1:                NOP
+02B2            0691   N2B2:                NOP
+02B3            0692   N2B3:                NOP
+02B4            0693   N2B4:                NOP
+02B5            0694   N2B5:                NOP
+02B6            0695   N2B6:                NOP
+02B7            0696   N2B7:                NOP
+02B8            0697   N2B8:                NOP
+02B9            0698   N2B9:                NOP
+02BA            0699   N2BA:                NOP
+02BB            0700   N2BB:                NOP
+02BC            0701   N2BC:                NOP
+02BD            0702   N2BD:                NOP
+02BE            0703   N2BE:                NOP
+02BF            0704   N2BF:                NOP
+02C0            0705   N2C0:                NOP
+02C1            0706   N2C1:                NOP
+02C2            0707   N2C2:                NOP
+02C3            0708   N2C3:                NOP
+02C4            0709   N2C4:                NOP
+02C5            0710   N2C5:                NOP
+02C6            0711   N2C6:                NOP
+02C7            0712   N2C7:                NOP
+02C8            0713   N2C8:                NOP
+02C9            0714   N2C9:                NOP
+02CA            0715   N2CA:                NOP
+02CB            0716   N2CB:                NOP
+02CC            0717   N2CC:                NOP
+02CD            0718   N2CD:                NOP
+02CE            0719   N2CE:                NOP
+02CF            0720   N2CF:                NOP
+02D0            0721   N2D0:                NOP
+02D1            0722   N2D1:                NOP
+02D2            0723   N2D2:                NOP
+02D3            0724   N2D3:                NOP
+02D4            0725   N2D4:                NOP
+02D5            0726   N2D5:                NOP
+02D6            0727   N2D6:                NOP
+02D7            0728   N2D7:                NOP
+02D8            0729   N2D8:                NOP
+02D9            0730   N2D9:                NOP
+02DA            0731   N2DA:                NOP
+02DB            0732   N2DB:                NOP
+02DC            0733   N2DC:                NOP
+02DD            0734   N2DD:                NOP
+02DE            0735   N2DE:                NOP
+02DF            0736   N2DF:                NOP
+02E0            0737   N2E0:                NOP
+02E1            0738   N2E1:                NOP
+02E2            0739   N2E2:                NOP
+02E3            0740   N2E3:                NOP
+02E4            0741   N2E4:                NOP
+02E5            0742   N2E5:                NOP
+02E6            0743   N2E6:                NOP
+02E7            0744   N2E7:                NOP
+02E8            0745   N2E8:                NOP
+02E9            0746   N2E9:                NOP
+02EA            0747   N2EA:                NOP
+02EB            0748   N2EB:                NOP
+02EC            0749   N2EC:                NOP
+02ED            0750   N2ED:                NOP
+02EE            0751   N2EE:                NOP
+02EF            0752   N2EF:                NOP
+02F0            0753   N2F0:                NOP
+02F1            0754   N2F1:                NOP
+02F2            0755   N2F2:                NOP
+02F3            0756   N2F3:                NOP
+02F4            0757   N2F4:                NOP
+02F5            0758   N2F5:                NOP
+02F6            0759   N2F6:                NOP
+02F7            0760   N2F7:                NOP
+02F8            0761   N2F8:                NOP
+02F9            0762   N2F9:                NOP
+02FA            0763   N2FA:                NOP
+02FB            0764   N2FB:                NOP
+02FC            0765   N2FC:                NOP
+02FD            0766   N2FD:                NOP
+02FE            0767   N2FE:                NOP
+02FF            0768   N2FF:                NOP
+0300            0769   N300:                NOP
+0301            0770   N301:                NOP
+0302            0771   N302:                NOP
+0303            0772   N303:                NOP
+0304            0773   N304:                NOP
+0305            0774   N305:                NOP
+0306            0775   N306:                NOP
+0307            0776   N307:                NOP
+0308            0777   N308:                NOP
+0309            0778   N309:                NOP
+030A            0779   N30A:                NOP
+030B            0780   N30B:                NOP
+030C            0781   N30C:                NOP
+030D            0782   N30D:                NOP
+030E            0783   N30E:                NOP
+030F            0784   N30F:                NOP
+0310            0785   N310:                NOP
+0311            0786   N311:                NOP
+0312            0787   N312:                NOP
+0313            0788   N313:                NOP
+0314            0789   N314:                NOP
+0315            0790   N315:                NOP
+0316            0791   N316:                NOP
+0317            0792   N317:                NOP
+0318            0793   N318:                NOP
+0319            0794   N319:                NOP
+031A            0795   N31A:                NOP
+031B            0796   N31B:                NOP
+031C            0797   N31C:                NOP
+031D            0798   N31D:                NOP
+031E            0799   N31E:                NOP
+031F            0800   N31F:                NOP
+0320            0801   N320:                NOP
+0321            0802   N321:                NOP
+0322            0803   N322:                NOP
+0323            0804   N323:                NOP
+0324            0805   N324:                NOP
+0325            0806   N325:                NOP
+0326            0807   N326:                NOP
+0327            0808   N327:                NOP
+0328            0809   N328:                NOP
+0329            0810   N329:                NOP
+032A            0811   N32A:                NOP
+032B            0812   N32B:                NOP
+032C            0813   N32C:                NOP
+032D            0814   N32D:                NOP
+032E            0815   N32E:                NOP
+032F            0816   N32F:                NOP
+0330            0817   N330:                NOP
+0331            0818   N331:                NOP
+0332            0819   N332:                NOP
+0333            0820   N333:                NOP
+0334            0821   N334:                NOP
+0335            0822   N335:                NOP
+0336            0823   N336:                NOP
+0337            0824   N337:                NOP
+0338            0825   N338:                NOP
+0339            0826   N339:                NOP
+033A            0827   N33A:                NOP
+033B            0828   N33B:                NOP
+033C            0829   N33C:                NOP
+033D            0830   N33D:                NOP
+033E            0831   N33E:                NOP
+033F            0832   N33F:                NOP
+0340            0833   N340:                NOP
+0341            0834   N341:                NOP
+0342            0835   N342:                NOP
+0343            0836   N343:                NOP
+0344            0837   N344:                NOP
+0345            0838   N345:                NOP
+0346            0839   N346:                NOP
+0347            0840   N347:                NOP
+0348            0841   N348:                NOP
+0349            0842   N349:                NOP
+034A            0843   N34A:                NOP
+034B            0844   N34B:                NOP
+034C            0845   N34C:                NOP
+034D            0846   N34D:                NOP
+034E            0847   N34E:                NOP
+034F            0848   N34F:                NOP
+0350            0849   N350:                NOP
+0351            0850   N351:                NOP
+0352            0851   N352:                NOP
+0353            0852   N353:                NOP
+0354            0853   N354:                NOP
+0355            0854   N355:                NOP
+0356            0855   N356:                NOP
+0357            0856   N357:                NOP
+0358            0857   N358:                NOP
+0359            0858   N359:                NOP
+035A            0859   N35A:                NOP
+035B            0860   N35B:                NOP
+035C            0861   N35C:                NOP
+035D            0862   N35D:                NOP
+035E            0863   N35E:                NOP
+035F            0864   N35F:                NOP
+0360            0865   N360:                NOP
+0361            0866   N361:                NOP
+0362            0867   N362:                NOP
+0363            0868   N363:                NOP
+0364            0869   N364:                NOP
+0365            0870   N365:                NOP
+0366            0871   N366:                NOP
+0367            0872   N367:                NOP
+0368            0873   N368:                NOP
+0369            0874   N369:                NOP
+036A            0875   N36A:                NOP
+036B            0876   N36B:                NOP
+036C            0877   N36C:                NOP
+036D            0878   N36D:                NOP
+036E            0879   N36E:                NOP
+036F            0880   N36F:                NOP
+0370            0881   N370:                NOP
+0371            0882   N371:                NOP
+0372            0883   N372:                NOP
+0373            0884   N373:                NOP
+0374            0885   N374:                NOP
+0375            0886   N375:                NOP
+0376            0887   N376:                NOP
+0377            0888   N377:                NOP
+0378            0889   N378:                NOP
+0379            0890   N379:                NOP
+037A            0891   N37A:                NOP
+037B            0892   N37B:                NOP
+037C            0893   N37C:                NOP
+037D            0894   N37D:                NOP
+037E            0895   N37E:                NOP
+037F            0896   N37F:                NOP
+0380            0897   N380:                NOP
+0381            0898   N381:                NOP
+0382            0899   N382:                NOP
+0383            0900   N383:                NOP
+0384            0901   N384:                NOP
+0385            0902   N385:                NOP
+0386            0903   N386:                NOP
+0387            0904   N387:                NOP
+0388            0905   N388:                NOP
+0389            0906   N389:                NOP
+038A            0907   N38A:                NOP
+038B            0908   N38B:                NOP
+038C            0909   N38C:                NOP
+038D            0910   N38D:                NOP
+038E            0911   N38E:                NOP
+038F            0912   N38F:                NOP
+0390            0913   N390:                NOP
+0391            0914   N391:                NOP
+0392            0915   N392:                NOP
+0393            0916   N393:                NOP
+0394            0917   N394:                NOP
+0395            0918   N395:                NOP
+0396            0919   N396:                NOP
+0397            0920   N397:                NOP
+0398            0921   N398:                NOP
+0399            0922   N399:                NOP
+039A            0923   N39A:                NOP
+039B            0924   N39B:                NOP
+039C            0925   N39C:                NOP
+039D            0926   N39D:                NOP
+039E            0927   N39E:                NOP
+039F            0928   N39F:                NOP
+03A0            0929   N3A0:                NOP
+03A1            0930   N3A1:                NOP
+03A2            0931   N3A2:                NOP
+03A3            0932   N3A3:                NOP
+03A4            0933   N3A4:                NOP
+03A5            0934   N3A5:                NOP
+03A6            0935   N3A6:                NOP
+03A7            0936   N3A7:                NOP
+03A8            0937   N3A8:                ADDAR   0x002,1 
+03A9            0938   N3A9:                RETIA   0x000
+03AA            0939   N3AA:                RETIA   0x019
+03AB            0940   N3AB:                RETIA   0x017
+03AC            0941   N3AC:                RETIA   0x040
+03AD            0942   N3AD:                RETIA   0x00A
+03AE            0943   N3AE:                RETIA   0x01C
+03AF            0944   N3AF:                RETIA   0x01B
+03B0            0945   N3B0:                RETIA   0x012
+03B1            0946   N3B1:                RETIA   0x04C
+03B2            0947   N3B2:                RETIA   0x01E
+03B3            0948   N3B3:                RETIA   0x014
+03B4            0949   N3B4:                RETIA   0x011
+03B5            0950   N3B5:                RETIA   0x016
+03B6            0951   N3B6:                RETIA   0x004
+03B7            0952   N3B7:                RETIA   0x00E
+03B8            0953   N3B8:                RETIA   0x00F
+03B9            0954   N3B9:                RETIA   0x015
+03BA            0955   N3BA:                RETIA   0x04D
+03BB            0956   N3BB:                RETIA   0x000
+03BC            0957   N3BC:                RETIA   0x01A
+03BD            0958   N3BD:                RETIA   0x00C
+03BE            0959   N3BE:                ADDAR   0x002,1 
+03BF            0960   N3BF:                RETIA   0x000
+03C0            0961   N3C0:                RETIA   0x001
+03C1            0962   N3C1:                RETIA   0x000
+03C2            0963   N3C2:                RETIA   0x000
+03C3            0964   N3C3:                RETIA   0x000
+03C4            0965   N3C4:                RETIA   0x000
+03C5            0966   N3C5:                RETIA   0x000
+03C6            0967   N3C6:                ADDAR   0x002,1 
+03C7            0968   N3C7:                RETIA   0x000
+03C8            0969   N3C8:                RETIA   0x004
+03C9            0970   N3C9:                RETIA   0x004
+03CA            0971   N3CA:                RETIA   0x004
+03CB            0972   N3CB:                RETIA   0x004
+03CC            0973   N3CC:                RETIA   0x004
+03CD            0974   N3CD:                RETIA   0x000
+03CE            0975   N3CE:                RETIA   0x000
+03CF            0976   N3CF:                RETIA   0x000
+03D0            0977   N3D0:                RETIA   0x000
+03D1            0978   N3D1:                RETIA   0x000
+03D2            0979   N3D2:                RETIA   0x000
+03D3            0980   N3D3:                RETIA   0x001
+03D4            0981   N3D4:                RETIA   0x002
+03D5            0982   N3D5:                RETIA   0x003
+03D6            0983   N3D6:                RETIA   0x004
+03D7            0984   N3D7:                RETIA   0x004
+03D8            0985   N3D8:                ADDAR   0x002,1 
+03D9            0986   N3D9:                RETIA   0x000
+03DA            0987   N3DA:                RETIA   0x000
+03DB            0988   N3DB:                RETIA   0x001
+03DC            0989   N3DC:                RETIA   0x002
+03DD            0990   N3DD:                RETIA   0x003
+03DE            0991   N3DE:                RETIA   0x004
+03DF            0992   N3DF:                RETIA   0x004
+03E0            0993   N3E0:                RETIA   0x004
+03E1            0994   N3E1:                RETIA   0x004
+03E2            0995   N3E2:                RETIA   0x004
+03E3            0996   N3E3:                RETIA   0x004
+03E4            0997   N3E4:                RETIA   0x000
+03E5            0998   N3E5:                RETIA   0x000
+03E6            0999   N3E6:                RETIA   0x000
+03E7            1000   N3E7:                RETIA   0x000
+03E8            1001   N3E8:                RETIA   0x000
+03E9            1002   N3E9:                RETIA   0x004
+03EA            1003   N3EA:                ADDAR   0x002,1 
+03EB            1004   N3EB:                RETIA   0x000
+03EC            1005   N3EC:                RETIA   0x000
+03ED            1006   N3ED:                RETIA   0x000
+03EE            1007   N3EE:                RETIA   0x000
+03EF            1008   N3EF:                RETIA   0x000
+03F0            1009   N3F0:                RETIA   0x000
+03F1            1010   N3F1:                RETIA   0x000
+03F2            1011   N3F2:                RETIA   0x001
+03F3            1012   N3F3:                RETIA   0x002
+03F4            1013   N3F4:                RETIA   0x003
+03F5            1014   N3F5:                RETIA   0x004
+03F6            1015   N3F6:                RETIA   0x004
+03F7            1016   N3F7:                RETIA   0x004
+03F8            1017   N3F8:                RETIA   0x004
+03F9            1018   N3F9:                RETIA   0x004
+03FA            1019   N3FA:                RETIA   0x004
+03FB            1020   N3FB:                RETIA   0x004
+03FC            1021   N3FC:                NOP
+03FD            1022   N3FD:                NOP
+03FE            1023   N3FE:                NOP
+03FF            1024   N3FF:                GOTO        0x000
+;=============================== superled.asm End ================================================================
